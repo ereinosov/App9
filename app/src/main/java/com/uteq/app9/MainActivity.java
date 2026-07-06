@@ -21,7 +21,7 @@ import com.google.firebase.database.ValueEventListener;
 public class MainActivity extends AppCompatActivity {
     FirebaseDatabase database;
     DatabaseReference HumedadRef, presionRef, VelocidadRef, TemperauraRef;
-    EditText txt_temperatura_edit, txt_humedad_edit;
+    EditText txt_temperatura_edit, txt_humedad_edit, txt_velocidad_edit, txt_presion_edit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
         TextView txtPresion = findViewById(R.id.valor_Presion);
         txt_temperatura_edit = findViewById(R.id.setvalor_Temperatura);
         txt_humedad_edit = findViewById(R.id.setvalor_Humedad);
+        txt_velocidad_edit = findViewById(R.id.setvalor_Velocidad);
+        txt_presion_edit = findViewById(R.id.setvalor_Presion);
 
         TemperauraRef.addValueEventListener(setListener(txtTemp, "°C"));
         HumedadRef.addValueEventListener(setListener(txtHumedad, "%"));
@@ -57,6 +59,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickBotonHumedad(View v) {
         HumedadRef.setValue(Float.parseFloat(txt_humedad_edit.getText().toString()));
+    }
+
+    public void clickBotonVelocidad(View v) {
+        VelocidadRef.setValue(Float.parseFloat(txt_velocidad_edit.getText().toString()));
+    }
+
+    public void clickBotonPresion(View v) {
+        presionRef.setValue(Float.parseFloat(txt_presion_edit.getText().toString()));
     }
 
 
