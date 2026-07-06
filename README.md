@@ -136,23 +136,10 @@ dependencies {
 
 -----
 
-## Referencias
-
-[1] E. Gamma, R. Helm, R. Johnson y J. Vlissides, *Design Patterns: Elements of Reusable Object-Oriented Software*. Boston, MA, EE. UU.: Addison-Wesley, 1994. ISBN: 978-0-201-63361-0.
-
-[2] V. Kunitsyn y V. Fedorov, "Firebase (Realtime Database) mobile and web application development platform," en *Challenging Issues in Systems Modeling and Processes*, Voronezh State University of Forestry and Technologies, 2025. doi: 10.58168/cismp2024_349-352.
-
-[3] "Real-time database synchronization techniques in Firebase for mobile app development," *International Journal of Scientific Research in Engineering and Management*, vol. 7, no. 12, pp. 1–10, 2023. doi: 10.55041/ijsrem22021.
-
-[4] I. Sommerville, *Software Engineering*, 10.ª ed. Boston, MA, EE. UU.: Pearson, 2016. ISBN: 978-0-13-394303-0.
-
------
-
 ## Capturas de pantalla
 
-![App9 - Monitoreo de sensores](capturas/captura_monitoreo.jpg)
+![App9 - Monitoreo de sensores y Seteo de valores](capturas/captura.png)
 
-![App9 - Seteo de valores](capturas/captura_seteo.jpg)
 
 -----
 
