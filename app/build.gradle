@@ -38,6 +38,8 @@ dependencies {
     implementation libs.appcompat
     implementation libs.constraintlayout
     implementation libs.firebase.database
+    implementation libs.gms.play.services.maps
+    implementation libs.play.services.maps
     implementation libs.material
     testImplementation libs.junit
     androidTestImplementation libs.espresso.core
